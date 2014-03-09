@@ -3,11 +3,9 @@ package com.clowndata;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlRootElement;
 
-/**
- * Created by martin on 09/03/2014.
- */
 @XmlRootElement
 @Entity
 public class Person {
